@@ -1,0 +1,17 @@
+.dialogContent{
+    text-align: justify;
+}
+
+.dialogContent img{
+    margin: 1rem 0;
+    width: 100%;
+    -webkit-box-shadow: 18px 20px 87px -29px rgba(0,0,0,0.75);
+	-moz-box-shadow: 18px 20px 87px -29px rgba(0,0,0,0.75);
+	box-shadow: 18px 20px 87px -29px rgba(0,0,0,0.75);
+
+}
+
+.dialogContent p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}

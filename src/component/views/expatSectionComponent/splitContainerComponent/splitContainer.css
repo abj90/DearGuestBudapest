@@ -1,0 +1,139 @@
+.wrapper2.spotlight{
+	position: relative;
+	display: block;
+	background-image: linear-gradient(#f5f5f550 50%, #ffffff 50%);
+}
+
+.wrapper2 .primary{
+	background-color: #f06862;
+    color: #fbd9d8;
+    position: relative;
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+.wrapper2 .primary .style1{
+	padding: 5% 5% 2.5% 27%;
+	text-align:justify;
+}
+
+.wrapper2 .primary .style1 h2{
+	font-size: 2rem;
+	line-height: 1.3;
+	padding-bottom: 4%;
+	font-weight: 800;
+	text-align: left;
+}
+
+.wrapper2 .primary .style1 .content{
+	margin-top: 1.2rem;
+}
+
+.wrapper2 .primary .style1 .content p{
+	font-size: 1.2rem;
+	padding-top: 0.5rem;
+}
+
+.wrapper2 .secondary{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.wrapper2 .secondary .style2{
+	background-color: #f5f5f5;
+	padding: 2.5% 27% 2.5% 5%;
+	text-align:justify;
+}
+
+.wrapper2 .secondary .style2 h3{
+	font-size: 1.7rem;
+	line-height: 1.3;
+	padding-bottom: 2%;
+	font-weight: 800;
+}
+
+.wrapper2 .secondary .style2 p{
+	font-size: 1.1rem;
+}
+
+.wrapper2 .secondary .style2 p:nth-child(3){
+	color: #f06862;
+	padding-top: 0.3rem;
+
+}
+
+.wrapper2 .secondary .style3{
+	background-color: #ffffff;
+	padding: 2.5% 27% 2.5% 5%;
+	text-align:justify;
+	height: 100%;
+}
+
+.wrapper2 .secondary .style3 p{
+	font-size: 1.1rem;
+}
+.wrapper2 .secondary .style3 h3{
+	font-size: 1.7rem;
+	line-height: 1.3;
+	padding-bottom: 2%;
+	font-weight: 800;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.wrapper2 .primary .style1{
+	padding: 2rem;
+	text-align:justify;
+	
+	}
+	.wrapper2 .secondary .style2{
+	padding: 2rem;
+	text-align:justify;
+	}
+
+	.wrapper2 .secondary .style3{
+	padding: 2rem;
+	text-align:justify;
+	}
+
+
+}
+
+@media (max-width: 768px){
+	.wrapper2 .primary{
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+	}
+	.wrapper2 .primary .style1{
+	padding: 2rem 0rem;
+	}
+
+	.wrapper2 .primary .style1 h2{
+		text-align: left;
+	}
+	
+	.wrapper2 .primary .style1 p{
+	font-size: 1rem;
+	}
+
+	.wrapper2 .secondary .style2{
+	padding: 2rem 0.8rem;
+	text-align:justify;
+	}
+	
+	.wrapper2 .primary .style2 p{
+	font-size: 1rem;
+	}
+
+	.wrapper2 .secondary .style3{
+	padding: 2rem 0.8rem;
+	text-align:justify;
+	}
+
+	.wrapper2 .primary .style3 p{
+	font-size: 1rem;
+	}
+
+}

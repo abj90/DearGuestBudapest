@@ -1,0 +1,17 @@
+.wrapper2{
+	background-color: #f5f5f5;
+	width: 100%;
+	min-height:500px;
+	position: relative;
+}
+
+.wrapper2 .main{
+	background-color: #ffffff;
+	padding-top: 2rem;
+} 
+
+.wrapper2 h5{
+	font-size: 1.2rem;
+	font-weight: 800;
+	line-height: 1.2;
+}

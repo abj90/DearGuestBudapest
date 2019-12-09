@@ -1,0 +1,170 @@
+.wrapper4{
+    position: relative;
+    height: 100%;
+    background-color: #FFFFFF !important;
+}
+
+.wrapper4 a{
+	text-decoration: none;
+	color: #f06862;
+}
+.wrapper4 h2{
+	font-size: 2rem;
+	line-height: 1.3;
+	font-weight: 800;
+}
+
+.wrapper4 h3{
+	font-size: 1.7rem;
+	line-height: 1.3;
+	font-weight: 800;
+}
+
+.wrapper4 h5{
+	font-size: 1.4rem;
+	line-height: 1.3;
+	font-weight: 800;
+}
+
+.wrapper4 p{
+	font-size: 1.2rem;
+	
+}
+
+.wrapper4 .header{
+	width: 100%;
+	height: 150px;
+    padding: 2.5rem 0 2rem 0;
+	text-align: center;
+	background-color: #292f33;
+	color:#FFFFFF;
+}
+
+.wrapper4 .header .content{
+	width: 80%;
+	height: 50%;
+	margin: 0.5rem auto;
+	text-align: center;
+}
+
+
+.wrapper4 .tab-title{
+    margin:0 27% 0 27%;
+    text-align: center;
+    color: #f6f6f6;
+}
+
+.wrapper4 .primary{
+	background-color: #292f33;	
+	margin:0;
+	padding: 0;
+}
+.wrapper4 .secondary{
+	margin: 1.5rem 0;
+}
+
+.wrapper4 .secondary .style1{
+	width: 100%;
+	height: 50%;
+	border-top: solid 1px #f06862;
+}
+
+.wrapper4 .secondary .style1:first-child{
+	border-top: 0;
+	text-align: left;
+}
+
+.wrapper4 .secondary .image img{
+	box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.wrapper4 .secondary .style1 h5,p{
+	padding-top: 5%;
+}
+
+.wrapper4 .secondary .style1 ul >li{
+	padding: 0.3rem;
+	font-size: 1.3rem;
+}
+
+.wrapper4 .secondary .style2{
+	
+	text-align: justify;
+	margin: 1.5rem 0;
+}
+
+.wrapper4 .secondary .style2 img{
+	box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.30);
+}
+
+.wrapper4 .secondary .style2 h2{
+	padding: 0.5rem 0;
+}
+
+.wrapper4 .secondary .style2 h5{
+	padding: 0.5rem 0;
+}
+.wrapper4 .secondary .style2 p{
+	padding-top: 0.5rem;
+}
+
+.wrapper4 .secondary .style2 ul >li{
+	padding: 0.1rem;
+	font-size: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.wrapper4 .secondary .style1{
+		height: 50%;
+		text-align: center;
+		
+	}
+
+	.wrapper4 .secondary .style1:first-child{
+		border-top: 0;
+		text-align: center;
+	}
+
+	.wrapper4 .secondary .style1:last-child{
+		border-top: 0;
+		text-align: center;
+	}
+
+	.wrapper4 .secondary .image{
+		display: none;
+	}
+
+
+}
+
+
+@media (max-width: 768px){
+	
+	.wrapper4 .header{
+		height: 270px;
+		padding: 1rem 0 1rem 0;
+	}
+	
+	.wrapper4 .header .content{
+		width: 90%;
+		height: 100px;
+		text-align: center;
+	}
+	
+	.wrapper4 .secondary .style1{
+		height: 49%;
+		text-align: center;
+	}
+
+	.wrapper4 .secondary .style1:first-child{
+		border-top: 0;
+		text-align: center;
+	}
+
+	.wrapper4 .secondary .style1:last-child{
+		border-top: 0;
+		text-align: center;
+	}
+	
+}

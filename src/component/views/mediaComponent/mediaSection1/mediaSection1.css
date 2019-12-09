@@ -1,0 +1,40 @@
+.media-wrapper2{
+	margin: 2rem 0 2rem 0;
+}
+
+.media-wrapper2 .content{
+	margin-top:5%;
+}
+
+.media-wrapper2 .content .title{
+	margin: 0.5rem 0;
+}
+
+.media-wrapper2 .content .title h3{
+	margin: 0.5rem 0;
+	font-size: 1.7rem;
+	font-weight: 800;
+}
+
+.media-wrapper2 .content .title p{
+	font-weight: 800;
+	font-size: 1.3rem;
+}
+
+.media-wrapper2 .content .content-inner{
+	text-align: justify;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+
+@media (max-width: 768px){
+	.media-wrapper2 .content{
+		margin-top:0.5rem;
+	}
+
+	.media-wrapper2 .content .title{
+	margin: 0.5rem 0;
+	text-align: center;
+	}
+}

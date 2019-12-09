@@ -1,0 +1,149 @@
+.homeWrapper4{
+    position: relative;
+    height: 90%;
+ 
+}
+
+.homeWrapper4 .imageWrapper{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.homeWrapper4 .imageWrapper img {
+    width:100%;
+	padding:0;
+	margin:0;
+}
+
+.homeWrapper4 .titleWrapper{
+    background-color:#51CCA8;
+    position: relative;
+}
+
+.homeWrapper4 .titleWrapper .title{
+    font-size: 3rem;
+    text-align: center;
+    color:#fff;
+    line-height: 2;
+    margin-top: 25%;
+    margin-left: 20%;   
+}
+
+.homeWrapper4 .titleWrapper .inner{
+    display: none;
+}
+
+.homeWrapper4 .content{
+    position: absolute;
+    padding: 3rem 3rem 2rem 3rem;
+    -moz-transition: opacity 0.5s ease-out, -moz-transform 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    -ms-transition: opacity 0.5s ease-out, -ms-transform 0.5s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    background-color: #fff;
+    border-radius: 4px;
+    z-index: 4;
+    width: 40%;
+    top:15%;
+    left: 30%;
+}
+
+.homeWrapper4 .content h2{
+    color: #555;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0 0 1.5rem 0;
+}
+
+.homeWrapper4 .content p{
+    color:#888888;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+}
+
+.homeWrapper4 .content button{
+    margin: 0 auto;
+    padding: 0;
+}
+  
+
+  
+  @media (max-width: 768px){
+    
+    .homeWrapper4 .content{
+        position: relative;
+        padding: 1rem;
+        width: 100%;
+        top:0;
+        left: 0;
+        text-align: center;
+    }
+
+    .homeWrapper4 .titleWrapper .title{
+        font-size: 2rem;
+        text-align: center;
+        color:#fff;
+        line-height: 1.5;
+        margin:1rem;  
+        display: none; 
+    }
+
+    .homeWrapper4 .titleWrapper .inner{
+        display: block;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .homeWrapper4 .content button{
+        margin-top: 3%;
+    }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .homeWrapper4 .titleWrapper .title{
+        widows: 45%;
+        font-size: 2rem;
+        text-align: center;
+        color:#fff;
+        line-height: 2;
+        margin-top: 30%;
+        margin-left: 25%;
+   
+    }
+   
+   .homeWrapper4 .content{
+        position: absolute;
+        padding: 1rem;
+        width: 55%;
+        top:18%;
+        left: 15%;
+    }
+
+    .homeWrapper4 .content button{
+        margin-top: 2% auto;
+    }
+
+    .homeWrapper4 .content h3{
+        color: #555;
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 1.5;
+        margin: 0 0 1rem 0;
+    }
+
+    .homeWrapper4 .content p{
+        color:#888888;
+        font-size: 1rem;
+    }
+
+
+    
+  }
+
+ 
+

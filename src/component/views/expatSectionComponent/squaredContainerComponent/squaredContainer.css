@@ -1,0 +1,114 @@
+.wrapper3.spotlight{
+    position: relative;
+    background-color: #FFFFFF;
+    margin: 2rem 0rem;
+    color: #444;
+    text-align: justify;
+}
+
+.wrapper3.spotlight .style1 img{
+	width: 100%;
+}
+
+.wrapper3.spotlight .style1 .fullSize{
+	display: block;
+	margin-top: 2rem;
+}
+
+.wrapper3.spotlight .style1 .reduceSize{
+	display: none;
+}
+
+.wrapper3.spotlight .style2 h2{
+	font-size: 2rem;
+	line-height: 1.3;
+	font-weight: 800;
+}
+
+.wrapper3.spotlight .style2 h5{
+	font-size: 1.2rem;
+	line-height: 1.4;
+	font-weight: 600;
+	padding: 0.5rem 0rem;
+}
+
+.wrapper3.spotlight .style2 ul{
+	padding: 0.5rem 0rem;
+}
+
+.wrapper3.spotlight .style2 ul li{
+	padding: 0.5rem 0rem;
+}
+
+.wrapper3.spotlight .style2 p{
+	font-size: 1.1rem;
+	padding: 0.5rem 0rem;
+}
+
+.wrapper3.spotlight .style2 .fas {
+	margin: 1.2rem;
+	font-size: 1.5rem;
+	color: #f06862;
+}
+
+.wrapper3.spotlight .style2 .feature{
+	width: 50%;
+	height: 50%;
+	float: left;	
+}
+
+
+.wrapper3.spotlight .style2 .feature .fab{
+	margin: 1.2rem;
+	font-size: 1.5rem;
+	color: #f06862;
+}
+
+.wrapper3.spotlight .style2 a{
+	text-decoration: none;
+	color: #f06862;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	.wrapper3 .style1 .image{
+		display: none;
+	}
+
+	.wrapper3 .style1 .inner{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.wrapper3 .style1 .inner .feature{
+		width: 50%;
+		height: 100%;
+		float: none;
+		padding-top: 2rem;
+	}
+
+
+
+}
+
+@media (max-width: 768px){
+
+	.wrapper3.spotlight .style1 .fullSize{
+		display: none;
+	}
+	
+	.wrapper3.spotlight .style1 .reduceSize{
+		display: block;
+		padding-bottom: 1rem;
+	}
+	
+	.wrapper3.spotlight .style2 .feature{
+	width: 100%;
+	height: 250px;
+	float: none;	
+	}
+
+
+
+}

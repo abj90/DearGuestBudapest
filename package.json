@@ -1,0 +1,39 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "lodash": "^4.17.11",
+    "prettier": "^1.19.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-image-masonry": "^0.4.0",
+    "react-parallax": "^2.2.0",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-web-tabs": "^1.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "aws s3 cp --recursive ./build s3://www.dearguestbudapest.com",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
